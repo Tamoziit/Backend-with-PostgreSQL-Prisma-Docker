@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 
 import authRoutes from "./routes/auth.routes.js";
 import todoRoutes from "./routes/todo.routes.js";
+import authMiddleware from "./middleware/auth.middleware.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -21,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/auth", authRoutes);
-app.use("/todo", todoRoutes);
+app.use("/todos", authMiddleware, todoRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server listening on Port: ${PORT}`);
