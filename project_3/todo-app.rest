@@ -1,10 +1,10 @@
 ### READ all todos
 GET http://localhost:5000/todos
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODA4MDcyLCJleHAiOjE3MzI4OTQ0NzJ9.jr6Qq7IZ_UIWe2iD7w1nbNEhhtoZcjNQwCAtEGA-nUo
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODEzNjkwLCJleHAiOjE3MzI5MDAwOTB9.WsHTMYes2VsRzlFgVAkV4X4Tasc70oEZfYUpHmTweT8
 
 ### CREATE a new ToDo
 POST http://localhost:5000/todos
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODA4MDcyLCJleHAiOjE3MzI4OTQ0NzJ9.jr6Qq7IZ_UIWe2iD7w1nbNEhhtoZcjNQwCAtEGA-nUo
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODEzNjkwLCJleHAiOjE3MzI5MDAwOTB9.WsHTMYes2VsRzlFgVAkV4X4Tasc70oEZfYUpHmTweT8
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 ### UPDATE a ToDo
 PUT http://localhost:5000/todos/2
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODA4MDcyLCJleHAiOjE3MzI4OTQ0NzJ9.jr6Qq7IZ_UIWe2iD7w1nbNEhhtoZcjNQwCAtEGA-nUo
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODEzNjkwLCJleHAiOjE3MzI5MDAwOTB9.WsHTMYes2VsRzlFgVAkV4X4Tasc70oEZfYUpHmTweT8
 Content-Type: application/json
 
 {
