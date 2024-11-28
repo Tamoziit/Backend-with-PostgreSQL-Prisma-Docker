@@ -1,0 +1,7 @@
+IMPORTANT CMDs
+* npx prisma init : Initializes Prisma ORM files for the project
+* npx prisma generate : Generates Prisma Client setup for the project
+* docker compose build : Build the containers.
+* docker compose run app npx prisma migrate dev --name init : Migrate the Prisma ORM inside the Docker environment to initialize the postgres DB inside the Docker build.
+* docker compose up : Spin up the containers
+*  docker exec -it postgres-db psql -U <POSTGRES_USER> -d <POSTGRES_DB> : Logging into the PostgreSQL DB inside the Docker env.
