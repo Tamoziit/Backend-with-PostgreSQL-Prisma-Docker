@@ -1,2 +1,2 @@
-# Backend-with-Postgres-Prisma-Docker
-Exploring Backend with Node, Postgres, Prisma &amp; Docker
+# Backend-with-PostgreSQL-Prisma-Docker
+Exploring Backend with Node, PostgreSQL, Prisma &amp; Docker
