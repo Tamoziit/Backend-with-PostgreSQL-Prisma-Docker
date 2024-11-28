@@ -5,3 +5,9 @@ IMPORTANT CMDs
 * docker compose run app npx prisma migrate dev --name init : Migrate the Prisma ORM inside the Docker environment to initialize the postgres DB inside the Docker build.
 * docker compose up : Spin up the containers
 *  docker exec -it postgres-db psql -U <POSTGRES_USER> -d <POSTGRES_DB> : Logging into the PostgreSQL DB inside the Docker env.
+
+Inside Postgres CLI:
+* \dt : Lists out all the available data tables
+* SELECT * FROM "<Table_name>"; : Lists out all the data entries of a particular table
+(CRUD ops syntaxes Similar to SQL syntaxes)
+* quit : log out of the CLI.
