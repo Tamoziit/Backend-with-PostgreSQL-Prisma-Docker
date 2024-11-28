@@ -1,0 +1,25 @@
+### READ all todos
+GET http://localhost:5000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODA4MDcyLCJleHAiOjE3MzI4OTQ0NzJ9.jr6Qq7IZ_UIWe2iD7w1nbNEhhtoZcjNQwCAtEGA-nUo
+
+### CREATE a new ToDo
+POST http://localhost:5000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODA4MDcyLCJleHAiOjE3MzI4OTQ0NzJ9.jr6Qq7IZ_UIWe2iD7w1nbNEhhtoZcjNQwCAtEGA-nUo
+Content-Type: application/json
+
+{
+    "task": "Test Todo 2"
+}
+
+### UPDATE a ToDo
+PUT http://localhost:5000/todos/2
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODA4MDcyLCJleHAiOjE3MzI4OTQ0NzJ9.jr6Qq7IZ_UIWe2iD7w1nbNEhhtoZcjNQwCAtEGA-nUo
+Content-Type: application/json
+
+{
+    "completed": 1
+}
+
+### DELETE a ToDo
+DELETE http://localhost:5000/todos/2
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyODA4MDcyLCJleHAiOjE3MzI4OTQ0NzJ9.jr6Qq7IZ_UIWe2iD7w1nbNEhhtoZcjNQwCAtEGA-nUo
